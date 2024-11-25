@@ -1,0 +1,203 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I help you?",
+        "Good day! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Catch you later",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to come back if you have more questions.",
+        "Catch you later! Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you very much",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Happy to help!",
+        "Anytime!",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": [
+        "Is product X available?",
+        "Do you have product Y in stock?",
+        "Can I buy product Z?",
+        "Is product A out of stock?",
+        "Do you have any more of product B?",
+        "Is product C still available?"
+      ],
+      "responses": [
+        "Let me check the availability of that product for you.",
+        "Product X is currently in stock.",
+        "Product Y is out of stock at the moment.",
+        "You can purchase product Z from our website.",
+        "Product A is available for purchase.",
+        "We have a few units of product B left in stock."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "What is the status of my order?",
+        "Has my order been shipped?",
+        "When will my order arrive?",
+        "Can you track my order?",
+        "Order tracking"
+      ],
+      "responses": [
+        "Please provide your order number, and I'll check the status for you.",
+        "Your order has been shipped and is on its way.",
+        "Your order is being processed and will be shipped soon.",
+        "Your order is expected to arrive in 3-5 business days.",
+        "You can track your order using the tracking number provided in your confirmation email."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": [
+        "What is your return policy?",
+        "Can I return a product?",
+        "How do I return an item?",
+        "What are the conditions for returning a product?",
+        "Return instructions",
+        "Product return"
+      ],
+      "responses": [
+        "You can return any product within 30 days of purchase.",
+        "To return a product, please visit our returns page and follow the instructions.",
+        "Products must be in their original condition to be eligible for a return.",
+        "Please contact our customer service for assistance with returns.",
+        "You can initiate a return by logging into your account and selecting the order you wish to return."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with PayPal?",
+        "Do you accept credit cards?",
+        "Is cash on delivery available?",
+        "Payment options",
+        "How can I pay?"
+      ],
+      "responses": [
+        "We accept various payment methods including credit cards, PayPal, and bank transfers.",
+        "Yes, you can pay with PayPal.",
+        "We accept all major credit cards.",
+        "Cash on delivery is available for select locations.",
+        "You can choose your preferred payment method at checkout."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "What are your shipping options?",
+        "How much does shipping cost?",
+        "Do you offer free shipping?",
+        "How long does shipping take?",
+        "Shipping details",
+        "Delivery options"
+      ],
+      "responses": [
+        "We offer standard and express shipping options.",
+        "Shipping costs vary based on the delivery location and shipping method.",
+        "We offer free shipping on orders over $50.",
+        "Standard shipping takes 5-7 business days, while express shipping takes 2-3 business days.",
+        "You can view our shipping options and costs at checkout."
+      ]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": [
+        "Can you recommend a product?",
+        "What is the best product for cleaning?",
+        "Which vacuum cleaner should I buy?",
+        "What are the top-rated kitchen appliances?",
+        "Product suggestions",
+        "Best products"
+      ],
+      "responses": [
+        "I recommend checking out our bestsellers section for popular products.",
+        "For cleaning, our customers love the XYZ brand products.",
+        "The ABC vacuum cleaner is highly rated by our customers.",
+        "Our top-rated kitchen appliances include the DEF blender and GHI microwave.",
+        "You can find product recommendations on our homepage."
+      ]
+    },
+    {
+      "tag": "account_help",
+      "patterns": [
+        "How do I create an account?",
+        "I forgot my password",
+        "How do I reset my password?",
+        "How do I update my account information?",
+        "Account issues",
+        "Help with my account"
+      ],
+      "responses": [
+        "To create an account, click on the 'Sign Up' button on our homepage and fill in the required details.",
+        "If you forgot your password, click on the 'Forgot Password' link on the login page to reset it.",
+        "You can reset your password by following the instructions sent to your email.",
+        "To update your account information, log in to your account and go to the 'Account Settings' page.",
+        "Please contact our customer service for further assistance with your account."
+      ]
+    },
+    {
+      "tag": "discounts_and_offers",
+      "patterns": [
+        "Do you have any discounts?",
+        "Are there any ongoing offers?",
+        "How can I get a discount?",
+        "Current promotions",
+        "Discount codes",
+        "Special offers"
+      ],
+      "responses": [
+        "You can find our current discounts and offers on the 'Deals' page.",
+        "We have ongoing promotions on select products. Check our 'Offers' section for more details.",
+        "Subscribe to our newsletter to receive exclusive discount codes and offers.",
+        "You can apply discount codes at checkout to avail of special offers.",
+        "Visit our 'Special Offers' page for the latest promotions."
+      ]
+    }
+  ]
+}
