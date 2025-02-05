@@ -92,7 +92,5 @@ e.g message:
     "message": "I need to update my address"
 
 
-<<<<<<< HEAD
-worked by Ahmed Almalki, Ossama Abbas
+worked by Ahmed Almalki
 =======
->>>>>>> a9684214 (Initial commit)
