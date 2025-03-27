@@ -92,5 +92,5 @@ e.g message:
     "message": "I need to update my address"
 
 
-worked by Ahmed Almalki and osama abbas
+made by Ahmed Almalki
 =======
